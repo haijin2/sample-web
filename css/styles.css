@@ -139,19 +139,19 @@ footer {
 .parallax-container {
     position: relative;
     height: 100vh;
-    background: url('/assets/parallax-image.jpg') center/cover no-repeat;
+  
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
     flex-direction: column;
-
+    overflow: hidden;
 
 }
 
 .parallax-image {
-    background-image: url('assets/background.jpg'); /* Ensure correct path */
+    background-image: url('/assets/background.jpg'); /* Ensure correct path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -160,6 +160,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     transition: filter 0.2s ease-out; /* Smooth blur transition */
 }
 
@@ -180,6 +181,7 @@ footer {
     color: white;
     padding: 100px 20px;
 }
+
 /* 
 .animated-button {
     position: relative;
