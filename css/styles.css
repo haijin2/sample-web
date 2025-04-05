@@ -151,7 +151,7 @@ footer {
 }
 
 .parallax-image {
-    background-image: url('/assets/background.jpg'); /* Ensure correct path */
+    background-image: url('assets/background.jpg'); /* Ensure correct path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -360,6 +360,7 @@ footer {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 15px; /* Added margin below title */
+    color: black;
 }
 
 .custom-card .card-text {
