@@ -41,18 +41,19 @@
     
 
     <div class="parallax-container">
-        <div class="parallax-image" style="    
-          background-image: url('./assets/background.jpg');
-          background-attachment: fixed;
-          background-size: cover;
-          background-position: center;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          transition: filter 0.2s ease-out; /* Smooth blur transition */">
-        </div>
+      <div class="parallax-image" style="    
+      background-image: url('assets/background.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      transition: filter 0.2s ease-out;">
+    </div>
         <div class="parallax-overlay"></div>
         <div class="parallax-content">
             <div class="logo-container">
@@ -79,7 +80,7 @@
         <section id="operations" class="info-section">
             <h2>Operations</h2>
             
-            <div class="carousel-container">
+            <div class="carousel-container mb-4">
                 <div class="carousel-slide active">
                   <img src="assets/malabon.jpg" alt="Slide 1" class="carousel-image">
                 </div>
