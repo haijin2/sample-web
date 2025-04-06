@@ -151,14 +151,15 @@ footer {
 
 .parallax-image {
 /* Ensure correct path */
+    background-image: url('/assets/background.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     transition: filter 0.2s ease-out; /* Smooth blur transition */
 }
 
