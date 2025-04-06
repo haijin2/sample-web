@@ -149,7 +149,7 @@ footer {
 
 }
 
-.parallax-image {
+.parallax-image{
 /* Ensure correct path */
     background-image: url('/assets/background.jpg');
     background-attachment: fixed;
