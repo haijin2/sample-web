@@ -148,9 +148,9 @@ footer {
 
 
 }
-
+/*
 .parallax-image{
-/* Ensure correct path */
+ Ensure correct path * /
     background-image: url('/assets/background.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -160,8 +160,8 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    transition: filter 0.2s ease-out; /* Smooth blur transition */
-}
+    transition: filter 0.2s ease-out; /* Smooth blur transition * /
+}*/
 
 .parallax-overlay {
     position: absolute;
