@@ -150,7 +150,7 @@ footer {
 }
 
 .parallax-image {
-    background-image: url('./assets/background.jpg'); /* Ensure correct path */
+/* Ensure correct path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
